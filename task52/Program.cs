@@ -24,7 +24,6 @@ void ColumnsSum(int[,] array)
         sum = Math.Round(sum / rows, 1);
         Console.Write(sum + "; ");
     }
-    Console.WriteLine();
 }
 
 int[,] GetArray(int m, int n)
